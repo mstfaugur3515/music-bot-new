@@ -30,7 +30,7 @@ const registerPlayerEvents = (player, client) => {
         const shuffleButton = new ButtonBuilder().setCustomId('Playing-Shuffle').setEmoji(button.shuffle).setStyle(ButtonStyle.Secondary);
         //const row = new ActionRowBuilder().addComponents(playPauseButton, skipButton, stopButton, loopButton, shuffleButton);
 
-        return queue.dashboard = await queue.metadata.channel.send({ embeds: [embed.Embed_dashboard('**กำลังเล่น**', track.title, track.url, track.thumbnail, settings(queue))]/*, components: [row]*/ });
+        return queue.dashboard = await queue.metadata.channel.send({ embeds: [embed.Embed_dashboard('**Oynatılıyor..**', track.title, track.url, track.thumbnail, settings(queue))]/*, components: [row]*/ });
     });
 
     player.events.on('audioTrackAdd', async (queue, track) => {

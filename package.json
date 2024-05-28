@@ -22,6 +22,7 @@
     "@discord-player/extractor": "^4.4.6",
     "@discord-player/utils": "^0.2.2",
     "@ffmpeg-installer/ffmpeg": "~1.1.0",
+    "@web-scrobbler/metadata-filter": "^3.1.0",
     "console-stamp": "~3.1.1",
     "discord-player": "^6.6.7",
     "discord.js": "~14.11.0",
